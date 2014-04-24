@@ -127,7 +127,7 @@ void init(){
 	int bmpWidth = -1;
 	int bmpHeight = -1;
 	int bmpSize = -1;
-	loadBitmapFromFile("creature3.bmp", &bmpWidth, &bmpHeight, &bmpSize, (unsigned char**)&imageData);
+	loadBitmapFromFile("creature.bmp", &bmpWidth, &bmpHeight, &bmpSize, (unsigned char**)&imageData);
 	
 	glEnable(GL_TEXTURE_2D);				
 	glGenTextures(1, &texBufferID);				
