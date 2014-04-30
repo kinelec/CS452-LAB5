@@ -1,3 +1,4 @@
+#define GLM_FORCE_RADIANS
 #include "initShaders.h"
 #include <cstdlib>
 using namespace std;
